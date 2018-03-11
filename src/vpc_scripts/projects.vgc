@@ -1,0 +1,25 @@
+//-----------------------------------------------------------------------------
+//	PROJECTS.VGC
+//
+//	Project Configurations for all Source(TM) Projects
+//-----------------------------------------------------------------------------
+
+/////////////////////////
+// Project definitions //
+/////////////////////////
+
+
+$Project "mathlib"
+{
+	"mathlib\mathlib.vpc" [$WINDOWS||$X360||$POSIX]
+}
+
+$Project "tier1"
+{
+	"tier1\tier1.vpc" 	[$WINDOWS || $X360||$POSIX]
+}
+
+$Project "vphysics_bullet"
+{
+	"vphysics_bullet\vphysics_bullet.vpc" [$WINDOWS||$X360||$POSIX]
+}

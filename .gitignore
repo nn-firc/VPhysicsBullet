@@ -1,0 +1,11 @@
+bin
+*.lib
+.vs
+*.tlog
+Release
+Debug
+*.vcxproj
+*.sln
+*.vcxproj.filters
+*.vpc_crc
+*.sentinel
