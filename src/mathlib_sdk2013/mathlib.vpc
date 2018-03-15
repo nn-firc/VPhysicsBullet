@@ -11,7 +11,7 @@ $Configuration
 {
 	$Compiler
 	{
-		$AdditionalIncludeDirectories	"$BASE;..\public_sdk2013\mathlib_sdk2013"
+		$AdditionalIncludeDirectories	"$BASE;..\public_sdk2013\mathlib"
 		$PreprocessorDefinitions		"$BASE;MATHLIB_LIB"
 	}
 }

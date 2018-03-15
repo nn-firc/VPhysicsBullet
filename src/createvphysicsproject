@@ -1,5 +1,5 @@
 #!/bin/bash
 
 pushd `dirname $0`
-devtools/bin/vpc +vphysics /mksln vphysics
+devtools/bin/vpc +vphysics /define:sdk2013 /mksln vphysics
 popd

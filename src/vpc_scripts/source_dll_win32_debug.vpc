@@ -146,7 +146,7 @@ $Configuration "Debug"
 		$SuppressStartupBanner				"Yes (/NOLOGO)"
 		$IgnoreImportLibrary
 		$RegisterOutput
-		$AdditionalLibraryDirectories		"$LIBCOMMON;$LIBPUBLIC"
+		$AdditionalLibraryDirectories		"$LIBCOMMON;$LIBPUBLIC;lib/bullet"
 		$LinkLibraryDependencies
 		$UseLibraryDependencyInputs
 		$UseUNICODEResponseFiles			"No"
