@@ -11,12 +11,14 @@
 
 $Project "mathlib"
 {
-	"mathlib\mathlib.vpc" [$WINDOWS||$X360||$POSIX]
+	"mathlib_sdk2013\mathlib.vpc" [($WINDOWS||$X360||$POSIX) && $SDK2013]
+	"mathlib_asw\mathlib.vpc" [($WINDOWS||$X360||$POSIX) && $ASW]
 }
 
 $Project "tier1"
 {
-	"tier1\tier1.vpc" 	[$WINDOWS || $X360||$POSIX]
+	"tier1_sdk2013\tier1.vpc" 	[($WINDOWS || $X360||$POSIX) && $SDK2013]
+	"tier1_asw\tier1.vpc" 	[($WINDOWS || $X360||$POSIX) && $ASW]
 }
 
 $Project "vphysics_bullet"

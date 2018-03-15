@@ -32,7 +32,18 @@ $Project
 {
 	$Folder	"Source Files"
 	{
-		$File	"$SRCDIR\public\tier0\memoverride.cpp"
+		$File	"$SRCDIR\public_sdk2013\tier0\memoverride.cpp" [$SDK2013]
+		{
+			$Configuration
+			{
+				$Compiler
+				{
+					$Create/UsePrecompiledHeader	"Not Using Precompiled Headers"
+				}
+			}
+		}
+		
+		$File	"$SRCDIR\public_asw\tier0\memoverride.cpp" [$ASW]
 		{
 			$Configuration
 			{

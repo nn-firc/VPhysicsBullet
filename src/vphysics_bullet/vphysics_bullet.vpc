@@ -16,7 +16,8 @@ $Project "VPhysics_Bullet"
 {
 	$Folder "Source Files"
 	{
-		$File "$SRCDIR\public\filesystem_helpers.cpp"
+		$File "$SRCDIR\public_sdk2013\filesystem_helpers.cpp" [$SDK2013]
+		$File "$SRCDIR\public_asw\filesystem_helpers.cpp" [$ASW]
 		$File "physics_collide.cpp"
 		$File "physics_constraint.cpp"
 		$File "physics_environment.cpp"

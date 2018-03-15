@@ -60,7 +60,8 @@ $Configuration "Release"
 	$Compiler
 	{
 		// General
-		$AdditionalIncludeDirectories		"$SRCDIR\common;$SRCDIR\public;$SRCDIR\public\tier0;$SRCDIR\public\tier1"
+		$AdditionalIncludeDirectories		"$SRCDIR\common;$SRCDIR\public_sdk2013;$SRCDIR\public_sdk2013\tier0;$SRCDIR\public_sdk2013\tier1" [$SDK2013]
+		$AdditionalIncludeDirectories		"$SRCDIR\common;$SRCDIR\public_asw;$SRCDIR\public_asw\tier0;$SRCDIR\public_asw\tier1" [$ASW]
 		$Resolve#UsingReferences
 		$DebugInformationFormat				"C7 Compatible (/Z7)"
 		$SuppressStartupBanner

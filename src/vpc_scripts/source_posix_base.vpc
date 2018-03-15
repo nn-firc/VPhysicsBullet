@@ -1,7 +1,8 @@
 
 $Include "$SRCDIR\vpc_scripts\version.vpc"
 
-$Macro LIBPUBLIC	"$SRCDIR\lib\public$PLATSUBDIR"
+$Macro LIBPUBLIC	"$SRCDIR\lib\public_sdk2013$PLATSUBDIR" [$SDK2013]
+$Macro LIBPUBLIC	"$SRCDIR\lib\public_asw$PLATSUBDIR" [$ASW]
 $Macro LIBCOMMON	"$SRCDIR\lib\common$PLATSUBDIR"
 
 $MacroRequired				"SRCDIR"
@@ -34,7 +35,8 @@ $Configuration
 
 	$Compiler
 	{
-		$AdditionalIncludeDirectories		"$SRCDIR\common;$SRCDIR\public;$SRCDIR\public\tier0;$SRCDIR\public\tier1"
+		$AdditionalIncludeDirectories		"$SRCDIR\common;$SRCDIR\public_sdk2013;$SRCDIR\public_sdk2013\tier0;$SRCDIR\public_sdk2013\tier1" [$SDK2013]
+		$AdditionalIncludeDirectories		"$SRCDIR\common;$SRCDIR\public_asw;$SRCDIR\public_asw\tier0;$SRCDIR\public_asw\tier1" [$ASW]
 		$AdditionalLibraryDirectories		"$LIBCOMMON;$LIBPUBLIC" [$OSXALL]
 		$PreprocessorDefinitions		"$BASE;GNUC;POSIX;COMPILER_GCC;_DLL_EXT=$_DLL_EXT"
 		$PreprocessorDefinitions		"$BASE;DEDICATED" [$DEDICATED]
