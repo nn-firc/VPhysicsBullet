@@ -53,9 +53,9 @@ $Project "VPhysics_Bullet"
 
 	$Folder "Link Libraries"
 	{
-		$Lib BulletCollision
-		$Lib BulletDynamics
-		$Lib LinearMath
+		$ImpLib ../lib/bullet/BulletCollision
+		$ImpLib ../lib/bullet/BulletDynamics
+		$ImpLib ../lib/bullet/LinearMath
 		$Lib mathlib
 		$Lib tier1
 	}
