@@ -8,7 +8,7 @@ $Configuration
 {
 	$Compiler
 	{
-		$AdditionalIncludeDirectories "$BASE;$SRCDIR\bullet3\src"
+		$AdditionalIncludeDirectories "$BASE;$SRCDIR\bullet3"
 	}
 }
 

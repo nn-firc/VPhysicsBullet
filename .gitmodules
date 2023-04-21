@@ -1,3 +1,0 @@
-[submodule "src/bullet3"]
-	path = src/bullet3
-	url = https://github.com/bulletphysics/bullet3

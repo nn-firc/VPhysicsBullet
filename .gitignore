@@ -9,3 +9,7 @@ Debug
 *.vcxproj.filters
 *.vpc_crc
 *.sentinel
+*.mak
+*.project
+*.P
+*.o
